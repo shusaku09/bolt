@@ -11,10 +11,13 @@
 .font-Raleway{
   font-family: 'Raleway',sans-serif;
 }
+.link{
+  display: block;
+}
 /*main
 ------------------------------ */
 .main{
-  padding-top: 100px;
+  padding-top: 78px;
 }
 /* header
 ------------------------------ */
@@ -73,7 +76,6 @@
 .content{
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .sub-title{
   color: #fff;
@@ -124,8 +126,7 @@
 .category:nth-child(-n+3){
   margin-top: 0;
 }
-.category:nth-child(1),
-.category:nth-child(4){
+.category:nth-child(3n + 1){
   margin-left: 0;
 }
 .caption{
@@ -138,6 +139,7 @@
   font-size: 20px;
   text-align: center;
   color: #4e4e4e;
+  font-weight: 100;
 }
 .email{
   background-color: #74cfae;
@@ -163,12 +165,15 @@
 }
 .content-box{
   display: flex;
-  align-items: center;
+  text-align: center;
 }  
-.box:nth-child(-n+3){
-  margin: 0 180px 0 0;
+.box{
+  margin: 0 90px;
 }
-.box:nth-last-child(1){
+.box:nth-child(1){
+  margin-left: 25px;
+}
+.box:last-child(){
   margin-right: 0;
 }
 .box p{
@@ -186,6 +191,8 @@
 }
 .nav{
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .icon{
   color: #74cfae;
