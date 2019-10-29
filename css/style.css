@@ -1,3 +1,4 @@
+
 /* 共通部分
 ------------------------------ */
 .wrapper{
@@ -11,7 +12,7 @@
   position: fixed;
   width: 100%;
   padding: 15px;
-  margin: 0 auto;
+  font-family: 'Lato',sans-serif;
 }
 .header{
   display: flex;
@@ -191,3 +192,11 @@
   text-align: end;
   font-family: 'Lato',sans-serif;
 }
+
+/* タブレット版
+-------------------------- */
+@media screen and (min-width:768px) and ( max-width:1199px){
+
+}
+
+@media screen and (min-width:1200px){}
