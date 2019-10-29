@@ -171,7 +171,7 @@
   margin: 0 90px;
 }
 .box:nth-child(1){
-  margin-left: 25px;
+  margin-left: 0px;
 }
 .box:last-child(){
   margin-right: 0;
