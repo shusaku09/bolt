@@ -261,6 +261,9 @@
   .category:nth-child(3n + 1){
     margin-top: 80px;
   }
+  .category:first-child{
+    margin-top: 0;
+  }
   .caption{
     flex-direction: column;
     margin-top: 0;
