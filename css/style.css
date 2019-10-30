@@ -239,11 +239,10 @@
   }
   /* header
   ------------------------------ */
-  
      /* section
   ------------------------ */
   .content-title{
-    padding-top: 20px;
+    margin-top: 20px;
   }
   .content{
     flex-direction: column;
