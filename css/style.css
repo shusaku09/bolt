@@ -30,6 +30,7 @@
   z-index: 2;
   width: 100%;
   padding: 15px;
+  box-sizing: border-box;
 }
 .header{
   display: flex;
@@ -293,11 +294,6 @@
   }
   .sp{
     display: block;
-    width: 40px;
-    height: 30px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
   }
   .page-title{
     font-size: 80px;
@@ -307,10 +303,13 @@
   .home-content{
     padding: 160px 0 130px 0;
   }
-  .menu{
-    text-align: center;
-    align-items: center;
-    font-size: 40px;
+  .side-menu{
+    width: 42px;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .side-menu i{
     color: #ddd;
   }
    /*section
