@@ -199,7 +199,6 @@
 }
 .icon{
   color: #74cfae;
-  padding: 20px;
   box-sizing: border-box;
   
 }
@@ -209,6 +208,7 @@
 .link__icon{
   width: 185px;
   transition: all 0.3s;
+  padding: 20px 0;
 }
 /* footer
 ----------------------*/
@@ -241,7 +241,7 @@
   ------------------------------ */
      /* section
   ------------------------ */
-  .content-title{
+  .sub-title{
     margin-top: 20px;
   }
   .content{
@@ -265,10 +265,10 @@
   }
   .caption{
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 80px;
   }
-  .caption p{
-    margin: 80px 0 40px 0;
+  .email{
+    margin-top: 40px;
   }
    /* section__content
   ------------------------ */
@@ -329,9 +329,6 @@
   }
   /*header
   ------------------------- */
-  .page-header{
-    height: 78px;
-  }
   .home-content{
     padding: 160px 0 130px 0;
   }
