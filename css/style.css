@@ -86,6 +86,7 @@
   color: #fff;
   text-align: center;
   vertical-align: middle;
+  width: 800px;
 }
 .sub-title p{
   margin-top: 35px;
@@ -134,7 +135,7 @@
 .caption{
   display:flex;
   margin-top: 90px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .caption p{
@@ -142,6 +143,8 @@
   text-align: center;
   color: #4e4e4e;
   font-weight: 100;
+  width: 800px;
+  margin-right: 90px;
 }
 .email{
   background-color: #74cfae;
@@ -243,6 +246,7 @@
   ------------------------ */
   .sub-title{
     margin-top: 20px;
+    width: 100%;
   }
   .content{
     flex-direction: column;
@@ -266,6 +270,10 @@
   .caption{
     flex-direction: column;
     margin-top: 80px;
+  }
+  .caption p{
+    width: 100%;
+    margin-right: 0;
   }
   .email{
     margin-top: 40px;
@@ -299,10 +307,6 @@
   }
   .category{
     margin: 0;
-  }
-  .caption{
-    flex-direction: column;
-    margin-top: 0;
   }
   .email{
     margin-top: 40px;
