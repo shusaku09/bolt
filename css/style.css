@@ -118,6 +118,9 @@
   justify-content: center;
   z-index: 1;
 }
+.img{
+  vertical-align:bottom
+}
 .category{
   margin-left: 100px;
   margin-top: 80px;
