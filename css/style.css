@@ -29,7 +29,7 @@
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
   box-sizing: border-box;
 }
 .header{
@@ -45,6 +45,7 @@
   box-sizing: border-box;
   transition: all 0.3s;
   margin-right: 10px;
+  height: 42px;
 }
 .button:hover{
   color: #333;
@@ -92,9 +93,6 @@
   margin-top: 35px;
   font-size: 20px;
 }
-.image{
-  display: table-cell;
-}
 /* article
 ----------------------*/
 .article{
@@ -106,13 +104,13 @@
   color: #4e4e4e;
   text-align: center;
 }
-.img{
+.link_img{
   text-align: center;
   opacity: 0.7;
   transition: all 0.3s;
   vertical-align: bottom;
 }
-.img:hover{
+.link_img:hover{
   opacity: 1;
   transition: 0.3s;
 }
@@ -174,7 +172,7 @@
   text-align: center;
 }
 .box{
-  margin: 0 90px;
+  margin-left: 180px;
 }
 .box:first-child{
   margin-left: 0;
@@ -221,7 +219,7 @@
 }
 .footer p{
   color: #fff;
-  text-align: end;
+  text-align: right;
 }
 
 /*PC版,タブレット共通
